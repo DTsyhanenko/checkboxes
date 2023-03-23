@@ -1,0 +1,29 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet" href="/Compiled-CSS/css/style.css")
+        title Good, Cheap, Fast
+    body
+        h2 How do you want your project to be?
+        .toggle-container
+            input#good.toggle(type="checkbox")
+            label.label(for="good")
+                .ball
+            span Good
+        
+        .toggle-container
+            input#cheap.toggle(type="checkbox")
+            label.label(for="cheap")
+                .ball
+            span Cheap
+
+        .toggle-container
+            input#fast.toggle(type="checkbox")
+            label.label(for="fast")
+                .ball
+            span Fast
+
+        script(src="/script.js")
